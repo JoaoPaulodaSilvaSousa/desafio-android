@@ -12,7 +12,7 @@
 
     --font-padrao: arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: "Bebas Neue", serif;
-    --fonte-android: 'idroid', crusive;
+    --fonte-android: 'droid', crusive;
       }
 
       * {
@@ -21,6 +21,12 @@
       }
       
 
+@font-face {
+    font-family: droid;
+    src: url(/fontesessa/doridrobot.ttf) format(opentype), url(/fontesessa/doridrobot.ttf), format(truetype);
+    font-weight: normal;
+    font-size: 90em;
+}
 
 @font-face {
     font-family: idroid;
@@ -31,7 +37,7 @@
 
 body {
     background-color: rgb(243, 236, 173);
-    font-family: var(--font-padrao);
+    font-family: var(--font-padrao), ;
 }
 
 header {
